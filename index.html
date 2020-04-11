@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Page</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+<body>
+    <!-- Menu -->
+    <nav role='navigation'>
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="#welcomeSection" class="scroll"><li>Home</li></a>
+            <a href="#About" class="scroll"><li>About</li></a>
+            <a href="#Skills" class="scroll"><li>Skills</li></a>
+            <a href="#Clients" class="scroll"><li>Clients</li></a>
+            <a href="#Contact" class="scroll"><li>Contact</li></a>
+          </ul>
+        </div>
+      </nav>
+    <div class="boat">
+        <img src="images/hiclipart.com.png" alt="tugboat">
+    </div>
+
+    <!-- Home section -->
+    <section id="welcomeSection">
+        <h1>Welcome</h1>
+        <p>to my site</p>
+        <ul id="scene" class="scroll-down">
+            <li class="layer" data-depth="2.00">
+              <svg version="1.1"
+                   width="80px" height="80px" viewBox="30.5 -9.5 554 813" enable-background="new 30.5 -9.5 554 813" xml:space="preserve">
+                <path d="M328,0h-44C271.68,0,42,5.28,42,242v308c0,9.9,3.96,242,242,242h44c13.86,0,242-6.16,242-242V242C570,232.1,566.04,0,328,0z
+                         M526,550c0,191.62-177.76,198-198,198h-44C92.38,748,86,570.24,86,550V242C86,50.82,263.54,44,284,44h44
+                         c191.62,0,198,177.76,198,198V550z"/>
+                <circle cx="306" cy="231" r="45"/>
+              </svg>
+            </li>
+        </ul>
+    </section>
+
+    <!-- About section -->
+    <section id="About">
+        <h1>About</h1>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </section>
+    <section id="Skills">
+        <h1>Skills</h1>
+        <p>Even though using "lorem ipsum" often arouses curiosity due to its resemblance to classical Latin, it is not intended to have meaning. Where text is visible in a document, people tend to focus on the textual content rather than upon overall presentation, so publishers use lorem ipsum when displaying a typeface or design in order to direct the focus to presentation. "Lorem ipsum" also approximates a typical distribution of spaces in English.</p>
+        <div id="box">
+            <h1>Skills <br/></h1>
+            <span class="total1"></span>
+        </div>
+        <div id="box">
+            <h1>Projects <br/></h1>
+            <span class="total2"></span>
+        </div>
+        <div id="box">
+            <h1>Clients <br/></h1>
+            <span class="total3"></span>
+        </div>
+    </section>
+
+    <!-- Work section -->
+    <section id="Work">
+        <h1>Work</h1>
+        <img src="http://placehold.it/350x300" class="animate-this-zoom element-to-hide">
+        <img src="http://placehold.it/350x300" class="animate-this-zoom element-to-hide">
+        <img src="http://placehold.it/350x300" class="animate-this-zoom element-to-hide">
+        <img src="http://placehold.it/350x300" class="animate-this-zoom element-to-hide">
+    </section>
+    <section id="Clients">
+        <h1>Clients</h1>
+        <img src="http://placehold.it/350x350" class="animate-this-up element-to-hide">
+        <img src="http://placehold.it/150x150" class="animate-this-up element-to-hide">
+        <img src="http://placehold.it/350x250" class="animate-this-up element-to-hide">
+        <img src="http://placehold.it/250x350" class="animate-this-up element-to-hide">
+        <img src="http://placehold.it/350x250" class="animate-this-up element-to-hide">
+    </section>
+
+    <!-- Contact from -->
+    <section id="Contact">
+        <h1>Contact</h1>
+        <form>
+            <label>
+              <p class="label-txt">Your Name</p>
+              <input type="text" class="input">
+              <div class="line-box">
+                <div class="line"></div>
+              </div>
+            </label>
+            <label>
+              <p class="label-txt">Your E-mail</p>
+              <input type="text" class="input">
+              <div class="line-box">
+                <div class="line"></div>
+              </div>
+            </label>
+            <label>
+              <p class="label-txt">Your Message</p>
+              <input type="text" class="input">
+              <div class="line-box">
+                <div class="line"></div>
+              </div>
+            </label>
+            <button>send</button>
+        </form>
+    </section>
+    <!-- Contact from end -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="custom.js"></script>
+</body>
+</html>
